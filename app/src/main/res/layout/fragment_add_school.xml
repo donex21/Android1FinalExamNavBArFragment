@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_School_Fragment"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add School"
+        android:textColor="#0077ff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_set_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Location First"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonround"
+        android:paddingHorizontal="10dp"/>
+
+    <EditText
+        android:id="@+id/editText_schoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School Name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/editText_schoolAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School Address"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/editText_schoolContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/editText_schoolEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School Email Add."
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/editText_schoolWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="School Website."
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="30dp"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progrressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/buttonround"
+        android:text="Submit "
+        android:textSize="18dp"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>

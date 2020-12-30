@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "776009934061",
+    "project_id": "cebuschool-ed04a",
+    "storage_bucket": "cebuschool-ed04a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776009934061:android:f7a0f75302eb45a92718e4",
+        "android_client_info": {
+          "package_name": "com.example.cebuschooldirectory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776009934061-at4cb08q67ljbei2n8kurfeirklqrh45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cebuschooldirectory",
+            "certificate_hash": "22b81354af6885fe57dcfabd8a54af721e091194"
+          }
+        },
+        {
+          "client_id": "776009934061-o82ghq9nmhher9fgdvrbnjegvdrgg7u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwvlblG2Yxjb9Ofj-CFjnwSshfM4QG7Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776009934061-o82ghq9nmhher9fgdvrbnjegvdrgg7u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
